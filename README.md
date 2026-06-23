@@ -1,6 +1,3 @@
-Here is the updated `README.md` with the official dataset section seamlessly integrated right before the features list.
-
----
 
 # Network Intrusion Detection System (NIDS) using Deep Learning
 
