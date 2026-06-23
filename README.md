@@ -1,6 +1,4 @@
-# intrusion
-
-Here is a professional, clean, and comprehensive `README.md` written in English for your Master's thesis project. It is structured beautifully for GitHub, complete with technical details extracted from your code, model architecture, and validation metrics.
+Here is the updated `README.md` with the official dataset section seamlessly integrated right before the features list.
 
 ---
 
@@ -26,10 +24,6 @@ An advanced, high-performance Network Intrusion Detection System (NIDS) built to
 
 
 ---
-## Dataset
-
-The model is trained and evaluated using the **CICIDS2017** dataset provided by the Canadian Institute for Cybersecurity (UNB).
-*   **Official Dataset Link:** [UNB CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
 
 ## 📊 Neural Network Architecture
 
@@ -89,20 +83,11 @@ The detailed visual validation metrics are saved directly in the project root:
 
 ---
 
-## 📂 Core Project Artifacts
+## 💾 Dataset Source
 
-* **`scaler.pkl`**: Standardized feature scaler used to normalize network parameters.
+The model is trained and evaluated using the benchmark **CICIDS2017** dataset provided by the Canadian Institute for Cybersecurity (CIC) at the University of New Brunswick (UNB). It contains realistic background traffic alongside various common multi-vector attack scenarios.
 
-
-* **`label_encoder.pkl`**: String-to-index tracking matrix containing the 15 verified classes.
-
-
-* **`feature_names.pkl`**: Reference tracking list of the top 15 selected network variables.
-
-
-* **`cicids_numpy_weights.pkl`**: Saved raw tensor bias/kernel matrices powering the standalone prediction engine.
-
-
+* **Official Dataset Repository:** [UNB CICIDS2017 Dataset Source](https://www.unb.ca/cic/datasets/ids-2017.html)
 
 ---
 
@@ -120,6 +105,23 @@ The model dynamically monitors the following **15 extracted features** to build 
 | **6** | `Flow IAT Max`<br> | **14** | `Subflow Fwd Pkts`<br> |
 | **7** | `Flow Pkts/s`<br> | **15** | `Init Bwd Win Byts`<br> |
 | **8** | `Flow IAT Min`<br> |  |  |
+
+---
+
+## 📂 Core Project Artifacts
+
+* **`scaler.pkl`**: Standardized feature scaler used to normalize network parameters.
+
+
+* **`label_encoder.pkl`**: String-to-index tracking matrix containing the 15 verified classes.
+
+
+* **`feature_names.pkl`**: Reference tracking list of the top 15 selected network variables.
+
+
+* **`cicids_numpy_weights.pkl`**: Saved raw tensor bias/kernel matrices powering the standalone prediction engine.
+
+
 
 ---
 
@@ -152,4 +154,3 @@ python live_inference_simulation.py
 * **Faculty**: Faculty of Technical Sciences, Department of Computer Systems and Technologies
 * **Master's Program**: Cybersecurity: Technologies in the Financial Sphere
 * **Academic Advisor**: Assoc. Prof. Dr. Ivaylo Mihaylov
-
