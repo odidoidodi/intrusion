@@ -1,4 +1,4 @@
-```markdown
+
 # 🛡️ Deep Learning Network Intrusion Detection System (NIDS)
 
 Refined, high-throughput network anomaly classification pipeline engineered specifically for high-risk corporate and financial sectors. This system employs an advanced recurrent architecture optimized for processing sequential connection traffic, paired with an ultra-lightweight math engine for production deployment.
