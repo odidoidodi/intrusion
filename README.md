@@ -26,6 +26,10 @@ An advanced, high-performance Network Intrusion Detection System (NIDS) built to
 
 
 ---
+## Dataset
+
+The model is trained and evaluated using the **CICIDS2017** dataset provided by the Canadian Institute for Cybersecurity (UNB).
+*   **Official Dataset Link:** [UNB CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
 
 ## 📊 Neural Network Architecture
 
