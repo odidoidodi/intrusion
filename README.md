@@ -1,4 +1,3 @@
-
 # 🛡️ Deep Learning Network Intrusion Detection System (NIDS)
 
 Refined, high-throughput network anomaly classification pipeline engineered specifically for high-risk corporate and financial sectors. This system employs an advanced recurrent architecture optimized for processing sequential connection traffic, paired with an ultra-lightweight math engine for production deployment.
@@ -6,12 +5,6 @@ Refined, high-throughput network anomaly classification pipeline engineered spec
 ---
 
 ## 💻 Tech Stack & Ecosystem
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ---
 
@@ -27,6 +20,8 @@ Refined, high-throughput network anomaly classification pipeline engineered spec
 
 The system is powered by a multi-layered Long Short-Term Memory (**LSTM**) network built natively on the updated **Keras 3** specifications.
 
+> [!CAUTION]
+> **GDPR Compliance Notice:** This neural network model involves automated decision-making and is not compliant with Article 22 of the GDPR regarding automated individual decision-making, including profiling.
 
 ```
 
@@ -42,6 +37,7 @@ The system is powered by a multi-layered Long Short-Term Memory (**LSTM**) netwo
 │  └── Dropout Regularization (Rate=0.2)
 ▼
 [Dense Output] ──► 15 Softmax Channels (Probability Distribution)
+
 
 ```
 
@@ -80,7 +76,7 @@ The architecture uses the benchmark **CICIDS2017** dataset distributed by the Ca
 The monitoring array parses and transforms **15 exact feature vectors** from real-time network streams:
 
 | Vector ID | Inspected Feature Parameter | Vector ID | Inspected Feature Parameter |
-| :---: | :--- | :---: | :--- |
+| --- | --- | --- | --- |
 | `01` | **Init Fwd Win Byts** | `09` | **Bwd Pkts/s** |
 | `02` | **Fwd Seg Size Min** | `10` | **Fwd IAT Tot** |
 | `03` | **Fwd Header Len** | `11` | **Fwd Pkts/s** |
@@ -88,7 +84,7 @@ The monitoring array parses and transforms **15 exact feature vectors** from rea
 | `05` | **Flow IAT Mean** | `13` | **Fwd IAT Min** |
 | `06` | **Flow IAT Max** | `14` | **Subflow Fwd Pkts** |
 | `07` | **Flow Pkts/s** | `15` | **Init Bwd Win Byts** |
-| `08` | **Flow IAT Min** | | |
+| `08` | **Flow IAT Min** |  |  |
 
 ---
 
@@ -105,11 +101,13 @@ The monitoring array parses and transforms **15 exact feature vectors** from rea
 ## ⚙️ Operation & Deployment Guide
 
 ### 1. Execute Training & Feature Pipeline
+
 To perform standard balancing, target vector selection, model training, and diagnostic rendering:
 
 ```bash
 # Using standard script interface
 python int.py
+
 
 ```
 
@@ -123,6 +121,7 @@ To launch the high-speed execution mode driven solely by pure linear algebra mat
 ```bash
 python real.py
 
+
 ```
 
 ### 3. Interactive Thesis Live Presentation Mode
@@ -131,6 +130,7 @@ For a visually smoothed terminal stream optimized for academic presentation and 
 
 ```bash
 python live_demo.py
+
 
 ```
 
@@ -142,4 +142,4 @@ python live_demo.py
 * **University:** University "Prof. Dr. Assen Zlatarov" – Burgas
 * **Faculty:** Faculty of Technical Sciences, Department of Computer Systems and Technologies
 * **Master's Program:** Cybersecurity: Technologies in the Financial Sphere
-* **Academic Advisor:**  Ivaylo Mihaylov, PhD, Associate Professor
+* **Academic Advisor:** Ivaylo Mihaylov, PhD, Associate Professor
