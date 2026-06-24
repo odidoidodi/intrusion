@@ -142,4 +142,4 @@ python live_demo.py
 * **University:** University "Prof. Dr. Assen Zlatarov" – Burgas
 * **Faculty:** Faculty of Technical Sciences, Department of Computer Systems and Technologies
 * **Master's Program:** Cybersecurity: Technologies in the Financial Sphere
-* **Academic Advisor:** Assoc. Prof. Dr. Ivaylo Mihaylov
+* **Academic Advisor:**  Ivaylo Mihaylov, PhD, Associate Professor
